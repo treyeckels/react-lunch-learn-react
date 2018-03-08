@@ -1,0 +1,12 @@
+body {
+    font-family: Roboto, Arial;
+}
+
+.preview img {
+    width: 50px;
+    height: 50px;
+}
+
+[data-selected] {
+    background-color: yellowgreen;
+}

@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <h1>The Cat In The Hat Server-Side Only</h1>
+
+    <div class="filters">
+        <label>Select Type</label>
+        <select class="hat-filter">
+            <option value="server-side-only.html">All</option>
+            <option value="server-side-only-hats.html" selected>With Hat</option>
+            <option value="server-side-only-no-hats.html">Without Hat</option>
+        </select>
+
+        <label>Select Hat Type</label>
+        <select class="hat-type-filter">
+            <option value="server-side-only-hats.html">All</option>
+            <option value="server-side-only-hats-fruits.html" selected>Fruits</option>
+        </select>
+    </div>
+
+    <h2>Cats</h2>
+
+    <table>
+        <tr>
+            <th>Select</th>
+            <th>Preview</th>
+            <th>Title</th>
+        </tr>
+        <tr data-id="1" data-selected>
+            <td>
+                <input type="checkbox" value="server-side-only-second-checked.html" />
+            </td>
+            <td class="preview">
+                <img src="https://i.ytimg.com/vi/qejDmpb1JKk/maxresdefault.jpg" />
+            </td>
+            <td>Cats in Pumpkin Hats Ring Bells For Treats</td>
+        </tr>
+        <tr data-id="2">
+            <td>
+                <input type="checkbox" value="server-side-only-hats-fruits-watermelons.html" />
+            </td>
+            <td class="preview">
+                <img src="https://www.saveur.com/sites/saveur.com/files/styles/1000_1x_/public/images/2017/06/food-hat-cats_2000x1500.jpg?itok=XmX_S6yD&fc=50,50"
+                />
+            </td>
+            <td>Cats in Watermelon Hats Ring Bells For Treats</td>
+        </tr>
+    </table>
+
+    <h2>Image</h2>
+
+    <div>
+        <h1>Cats in Pumpkin Hats Ring Bells For Treats</h1>
+        <img src="https://i.ytimg.com/vi/qejDmpb1JKk/maxresdefault.jpg" />
+        <p>The cats are wearing Pumpkin hats.</p>
+    </div>
+
+    <script src="server-side-js.js"></script>
+
+</body>
+
+</html>
